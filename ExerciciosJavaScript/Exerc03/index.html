@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <h1>Escolha a cor de sua preferência</h1>
+    <label for="cores">Selecione uma cor:</label>
+    <select id="cores" onchange="alterarCorFundo()">
+        <option value="purple">Roxo</option>
+        <option value="green">Verde</option>
+        <option value="blue">Azul</option>
+        <option value="red">Vermelho</option>
+    </select>
+
+    <button onclick="restaurarCor()">Retornar para cor padrão</button>
+</body>
+</html>
